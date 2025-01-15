@@ -1,0 +1,10 @@
+1. minikube start
+2. kubectl create deployment mynginx --image=nginx
+3. kubctl get deployments
+4. kubectl expose deployement mynginx --type=NodePort --port=8080
+5. kubectl scale deployment myniginx --replicas=4
+6. kubectl get deployments
+7. kubectl get pods
+8. kubectl delete deployment mynginx
+9. kubectl delete service mynginx
+10. minikube dashboard
